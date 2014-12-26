@@ -1,0 +1,41 @@
+------- PROPERTY --------
+Property_id
+Property_Type
+Buyer_Type
+Area (Sq.ft.)
+Property_Location
+Bedroom Count
+Floor (NOT SURE)
+Floor_Details
+Price
+
+----- Registered User -----
+User_id ---- int PRIMARY KEY
+UserName ------ VARCHAR(MAX)
+User_Location ------ VARCHAR(MAX)
+Price_Range ------ INT
+Buyers_Type ------ VARCHAR(MAX)
+Property_Location ------ VARCHAR(MAX)
+Property_Details ------ VARCHAR(MAX)
+
+
+---- Property ----
+Property_id ---- int PRIMARY KEY
+Property_Type ------ VARCHAR(MAX)
+Flag 1 ------ VARCHAR(MAX)
+Flag 2 ------ VARCHAR(MAX)
+Flag 3 ------ VARCHAR(MAX)
+
+
+----- Property_Details -----
+PropertyDetails_id ---- int FOREIGN KEY
+Property_Name ----- VARCHAR(MAX)
+Property_Location ------ VARCHAR(MAX)
+Area (Sq.ft.) ------ VARCHAR(MAX)
+Bedroom Count ------ INT
+Floor (NOT SURE) ------ INT
+Floor_Details ------ VARCHAR(MAX)
+Price ------ INT
+Property_Structure ---- VARCHAR(MAX)
+
+
